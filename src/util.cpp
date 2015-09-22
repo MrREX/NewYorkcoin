@@ -1118,7 +1118,13 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
                fprintf(ConfFile, "rpcport=22510\n");
                fprintf(ConfFile, "rpcconnect=127.0.0.1\n");
                fprintf(ConfFile, "addnode=173.20.221.70:22511\n");
-               fprintf(ConfFile, "addnode=173.20.221.70\n");
+               fprintf(ConfFile, "addnode=46.101.224.176:22511\n");
+               fprintf(ConfFile, "addnode=188.166.60.96:22511\n");
+               fprintf(ConfFile, "addnode=46.101.19.150:22511\n");
+               fprintf(ConfFile, "addnode=178.62.130.89:22511\n");
+               fprintf(ConfFile, "addnode=104.131.121.211:22511\n");
+               fprintf(ConfFile, "addnode=198.199.80.145:22511\n");
+               fprintf(ConfFile, "addnode=192.241.235.239:22511\n");
                fclose(ConfFile);
                // Returns our config path, created config file is NOT loaded first time...
                // Wallet will need to be reloaded before config file is properly read...
